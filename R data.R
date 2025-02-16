@@ -1,16 +1,7 @@
 ###决策树
 
-# install.packages("tidymodels")
 library(tidymodels)
-source("tidyfuncs4cls2_v18.R")
 
-# 多核并行
-library(doParallel)
-registerDoParallel(
-  makePSOCKcluster(
-    max(1, (parallel::detectCores(logical = F))-1)
-  )
-)
 
 # 读取数据
 # file.choose()
