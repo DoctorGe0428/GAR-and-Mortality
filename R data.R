@@ -2,7 +2,7 @@
 
 # install.packages("tidymodels")
 library(tidymodels)
-
+source("tidyfuncs4cls2_v18.R")
 
 # 多核并行
 library(doParallel)
